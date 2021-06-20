@@ -208,9 +208,9 @@ endif()
 # -----------------------------------------------------------------------------
 
 if (MI_INSTALL_TOPLEVEL)
-  set(mi_install_libdir   "lib")
+  set(mi_install_libdir   "lib64")
   set(mi_install_incdir   "include")
-  set(mi_install_cmakedir "cmake")
+  set(mi_install_cmakedir "share/cmake")
 else()
   set(mi_install_libdir   "lib/mimalloc-${mi_version}")
   set(mi_install_incdir   "include/mimalloc-${mi_version}")
